@@ -1,52 +1,62 @@
-![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
+<img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100" align="center"/>
+
+<img src="img/banner.jpg">
+
 
 # Project: Visualizing Real World Data
 
-## Overview
 
-The goal of this project is to practice creating and interpreting different types of visualizations using real world data.
+Mar Lizana Atienza
 
-**You will be working individually for this project**, but we'll be guiding you along the process and helping you as you go. 
+*Data Part Time Barcelona Dic 2019*
 
----
 
-## Technical Requirements
+## Content
 
-The technical requirements for this project are as follows:
+**Índice**   
+1. [Project Description](#id1)
+2. [Dataset](#id2)
+3. [Workflow](#id3)
+3. [Results](#id4)
 
- - Select a dataset from a public source.
- - Create a Jupyter noteboosk to analyze the data
- - Using your data, create a minimum of one scatter plot, one histogram, one box plot and one bar graph (you can add more than one visualization of each type of you choose). Graphs should contain the proper labeling of the x and y axis when appropriate as well as a title for the graph.
- - Explain what insight or information is inferred from these visualizations. The explanation should be in the notebook in markdown cells.
 
-## Necessary Deliverables
 
-The following deliverables should be pushed to your Github repo for this chapter.
+<a name="project"></a>
 
-- **A Jupyter notebook** containing your analysis and the code you used to obtain this analysis.
-- **A data folder** containing your data set.
+## Project Description<a name="id1"></a>
 
-## Suggested Ways to Get Started
+En este projecto nos centraremos en la visualización de un dataset. Para ello usaremos las herramientas vistas en clase, entre las que incluiremos elementos interactivos y gráficos de correlación entre otros.
 
-* **Find a data set to process** - a great place to start looking would be [Awesome Public Data Sets](https://github.com/awesomedata/awesome-public-datasets), [Kaggle Data Sets](https://www.kaggle.com/datasets), or the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php). A great new source is the [Google dataset search](https://toolbox.google.com/datasetsearch).
-* **Perform Preliminary Analysis** - use functions like `describe` to help guide you to the correct insight and data visualization. 
-* **Use the tools in your tool kit** - your knowledge of the different types of visualizations and when to use them should come in handy with this assignment.
-* **Consult documentation and resources provided** to better understand the tools you are using and how to accomplish what you want.
+<a name="dataset"></a>
 
-## Project Feedback + Evaluation
+## Dataset<a name="id2"></a>
 
-* __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
+Hemos seleccionado un dataset de la plataforma Kaggle sobre <a href="https://www.kaggle.com/dannielr/marvel-superheroes/">superhéroes de Marvel</a>. Este conjunto de datos está organizado en diferentes .csv:
 
-* __Creativity__: Did you add a personal spin or creative element into your project submission? Did you incorporate domain knowledge or unique perspective into your analysis.
+* <b>characters.csv</b>. 2 columnas: <CODE>characterID</CODE> y <CODE>name</CODE>.
+* <b>charactersToComics.csv</b>. 2 columnas: <CODE>comicID</CODE> y <CODE>characterID</CODE>.
+* <b>charcters_stats.csv</b>.  9 columnas: <CODE>Name</CODE>, <CODE>Alignment</CODE>,<CODE>Intelligence</CODE>, <CODE>Strength</CODE>,<CODE>Speed</CODE>, <CODE>Durability</CODE>,<CODE>Power</CODE>, <CODE>Combat</CODE> y <CODE>Total</CODE>.
+* <b>comics.csv</b>. 4 columnas: <CODE>comicID</CODE>, <CODE>title</CODE>,<CODE>issueNumber</CODE> y <CODE>description</CODE>.
+* <b>marvel_characters_info.csv</b>. 11 columnas: <CODE>ID</CODE>, <CODE>Name</CODE>,<CODE>Alignment</CODE>,<CODE>Gender</CODE>, <CODE>EyeColor</CODE>,<CODE>Race</CODE>,<CODE>HairColor</CODE>, <CODE>Publisher</CODE>,<CODE>SkinColor</CODE>,<CODE>Height</CODE> y <CODE>Weight</CODE>.
+* <b>marvel_dc_characters.csv</b>. 4 columnas: <CODE></CODE>, <CODE></CODE>,<CODE></CODE> y <CODE></CODE>.
+* <b>superheroes_power_matrix.csv</b>. 4 columnas: <CODE></CODE>, <CODE></CODE>,<CODE></CODE> y <CODE></CODE>.
+* <b>marvel_dc_characters-ms</b>. 4 columnas: <CODE></CODE>, <CODE></CODE>,<CODE></CODE> y <CODE></CODE>.
 
-* __Code Quality__: Did you follow code style guidance and best practices covered in class?
 
-* __Total__: Your instructors will give you a total score on your project between:
+ --> Selección de columnas entre los diferentes csv
 
-    **Score**|**Expectations**
-    -----|-----
-    0|Does not meet expectations
-    1|Meets expectations, good job!
-    2|Exceeds expectations, you wonderful creature, you!
+<a name="workflow"></a>
 
-This will be useful as an overall gauge of whether you met the project goals, but __the more important scores are described in the specs above__, which can help you identify where to focus your efforts for the next project!
+## Workflow<a name="id3"></a>
+
+--> Crear un csv con la info que nos interesa
+--> Estadística
+--> Grafo
+
+<a name="results"></a>
+
+## Results<a name="id4"></a>
+
+
+
+
