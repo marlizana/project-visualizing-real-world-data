@@ -40,9 +40,6 @@ Hemos seleccionado un dataset de la plataforma Kaggle sobre <a href="https://www
 * <b>charcters_stats.csv</b>.  9 columnas: <CODE>Name</CODE>, <CODE>Alignment</CODE>,<CODE>Intelligence</CODE>, <CODE>Strength</CODE>,<CODE>Speed</CODE>, <CODE>Durability</CODE>,<CODE>Power</CODE>, <CODE>Combat</CODE> y <CODE>Total</CODE>.
 * <b>comics.csv</b>. 4 columnas: <CODE>comicID</CODE>, <CODE>title</CODE>,<CODE>issueNumber</CODE> y <CODE>description</CODE>.
 * <b>marvel_characters_info.csv</b>. 11 columnas: <CODE>ID</CODE>, <CODE>Name</CODE>,<CODE>Alignment</CODE>,<CODE>Gender</CODE>, <CODE>EyeColor</CODE>,<CODE>Race</CODE>,<CODE>HairColor</CODE>, <CODE>Publisher</CODE>,<CODE>SkinColor</CODE>,<CODE>Height</CODE> y <CODE>Weight</CODE>.
-* <b>marvel_dc_characters.csv</b>. 4 columnas: <CODE></CODE>, <CODE></CODE>,<CODE></CODE> y <CODE></CODE>.
-* <b>superheroes_power_matrix.csv</b>. 4 columnas: <CODE></CODE>, <CODE></CODE>,<CODE></CODE> y <CODE></CODE>.
-* <b>marvel_dc_characters-ms</b>. 4 columnas: <CODE></CODE>, <CODE></CODE>,<CODE></CODE> y <CODE></CODE>.
 
 
  --> Selección de columnas entre los diferentes csv
