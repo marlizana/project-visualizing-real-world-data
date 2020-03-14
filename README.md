@@ -26,6 +26,8 @@ Mar Lizana Atienza
 ## Project Description<a name="id1"></a>
 
 En este projecto nos centraremos en la visualización de un dataset. Para ello usaremos las herramientas vistas en clase, entre las que incluiremos elementos interactivos y gráficos de correlación entre otros.
+El código está comentado para cualquier otra duda.
+
 
 <a name="dataset"></a>
 
@@ -49,13 +51,18 @@ Hemos seleccionado un dataset de la plataforma Kaggle sobre <a href="https://www
 
 ## Workflow<a name="id3"></a>
 
---> Crear un csv con la info que nos interesa
---> Estadística
---> Grafo
+El recorrido del proyecto es el siguiente:
+
+1. Introducción
+2. Preparar los datasets, examinar y analizar
+3. Análisis estadístico y visualización
+4. Grafo
 
 <a name="results"></a>
 
 ## Results<a name="id4"></a>
+
+- Gráficos interactivos para correlaciones, spiderplots según personaje, diagramas de cajas y bigotes por característica según sexo y alineación y, finalmente dos grafos, un egograph de cada personaje y uno general con las relaciones entre personajes.
 
 
 
